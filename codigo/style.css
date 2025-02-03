@@ -18,10 +18,20 @@ nav{
 /*Sessão Header*/
 header{
     background-color: aquamarine;
-    padding-left: 25px;
 }
 header h1{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
+    padding-left: 25px;
+}
+header p{
+    padding-left: 25px;
+}
+header img{
+    max-width: 100%;
+    height: auto;
+    background-image: url('../imagens/capa-index.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
