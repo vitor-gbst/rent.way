@@ -26,14 +26,23 @@ header h1{
 header p{
     padding-left: 25px;
 }
-header img{
-    max-width: 100%;
-    height: auto;
-    background-image: url('../imagens/capa-index.jpg');
+.banner-do-header{
+    width: 100%;
+    height: 350px;
+    background-image: url('../imagens/capa-index3.WebP');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
-
+.banner-do-header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
 
 /*Sessão Section*/
 section{
