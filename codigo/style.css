@@ -58,6 +58,10 @@ nav ul li{
 }
 nav ul li a{
     color: #F9F9F9;
+    transition: all 0.2ms ease;
+}
+nav ul li a:hover{
+    color: #D65C2E;
 }
 
 nav .conteudo-nav{
