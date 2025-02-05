@@ -5,7 +5,13 @@ window.addEventListener("scroll", function() {
     let logopreta = "../imagens/rent_way_preto.png";
     let logobranca = "../imagens/rent.way_branco.png";
 
-    if (window.scrollY > 100) {
+
+    /*Talvez coloque um icon de avatar
+    let avatarBranco = "../imagens/user(1).png"
+    let avatarPreto = "../imagens/user(2).png"
+    */
+
+    if (window.scrollY > 50) {
         nav.classList.add('roll-nav');
         logo.src = logopreta;
     } else {

@@ -57,14 +57,17 @@ nav ul{
 nav ul li{
      display: inline-block;
      margin: 0 10px;
+     align-items: center;
 }
 nav ul li a{
     color: #F9F9F9;
     transition: all 0.2ms ease;
+    align-items: center;
 }
 nav ul li a:hover{
     color: #D65C2E;
 }
+
 
 nav .conteudo-nav{
     display: flex;
@@ -148,6 +151,7 @@ section{
 }
 section h1{
     margin-bottom: -5px;
+    font-size: 28px;
 }
 .cards-container {
     display: grid;
