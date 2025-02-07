@@ -16,7 +16,7 @@
 ## **Como Rodar o Projeto?**  
 1️⃣ Clone este repositório:  
 ```bash
-git clone https://github.com//vitor-gbst/Aluguel-de-Carros
+git clone https://github.com//vitor-gbst/rent.way
 ```  
 2️⃣ Abra o arquivo `index.html` no navegador  
 
